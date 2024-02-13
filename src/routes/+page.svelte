@@ -1,4 +1,6 @@
 <script>
+	import Accueil from "$lib/component/accueil.svelte";
+
 
 </script>
 
@@ -8,7 +10,7 @@
 </svelte:head>
 
 <section>
-	<h1>Welcome</h1>
+	<Accueil/>
 </section>
 
 <style>
